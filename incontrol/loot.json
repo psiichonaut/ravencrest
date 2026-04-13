@@ -1,0 +1,67 @@
+[
+    {
+        "mob": "mythsandlegends:scorched_sentinel",
+        "remove": "mythsandlegends:scorched_bone"
+    },
+    {
+        "mob": "mythsandlegends:scorched_sentinel",
+        "item": "mythsandlegends:scorched_bone",
+        "itemcount": "1-2/2-3/3-4"
+    },
+
+    {
+        "mob": "minecraft:warden",
+        "item": "deeperdarker:warden_carapace",
+        "itemcount": "1-2/2-3/3-4"
+    },
+
+    {
+        "mob": "saintsdragons:nulljaw",
+        "item": "saintsdragons:nulljaw_scale",
+        "itemcount": "1-2/2-3/3-4"
+    },
+
+    {
+        "mob": "saintsdragons:cindervane",
+        "item": "saintsdragons:cindervane_scale",
+        "itemcount": "1-2/2-3/3-4"
+    },
+
+    {
+        "mob": "saintsdragons:raevyx",
+        "item": "saintsdragons:raevyx_scale",
+        "itemcount": "1-2/2-3/3-4"
+    },
+
+    {
+        "mob": "saintsdragons:ignivorus",
+        "item": "saintsdragons:ignivorus_scale",
+        "itemcount": "1-2/2-3/3-4"
+    },
+
+    {
+        "mob": "saintsdragons:stegonaut",
+        "item": "saintsdragons:stegonaut_scale",
+        "itemcount": "1-2/2-3/3-4"
+    },
+
+    {
+        "mob": "deeperdarker:shattered",
+        "item": "minecraft:echo_shard",
+        "player": true,
+        "itemcount": "4"
+    },
+
+    {
+        "mob": "minecraft:blaze",
+        "remove": "discerning_the_eldritch:soul_ember"
+    },
+
+    {
+        "mob": "minecraft:blaze",
+        "item": "discerning_the_eldritch:soul_ember",
+        "player": true,
+        "biome": "minecraft:soul_sand_valley",
+        "itemcount": "1"
+    }
+]

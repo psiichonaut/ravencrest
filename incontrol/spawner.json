@@ -1,0 +1,332 @@
+[
+    {
+        "mob": "iceandfire:troll",
+        "attempts": 40,
+        "persecond": 0.03,
+        "amount": {
+            "minimum": 1,
+            "maximum": 3
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "inwater": false,
+            "maxheight": 10,
+            "minheight": -50,
+            "and": {
+                "cave": false
+            }
+        }
+    },
+
+    {
+        "mob": "mythsandlegends:abaddon",
+        "attempts": 50,
+        "persecond": 0.45,
+        "amount": {
+            "minimum": 1,
+            "maximum": 3,
+            "groupdistance": 10
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "minheight": 80,
+            "maxthis": 50,
+            "and": {
+                "seesky": true,
+                "cave": false,
+                "biome": "biomesoplenty:volcano"
+            }
+        }
+    },
+
+    {
+        "mob": "irons_spellbooks:ice_spider",
+        "attempts": 20,
+        "persecond": 0.02,
+        "amount": {
+            "minimum": 1,
+            "maximum": 3,
+            "groupdistance": 15
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "minheight": 50,
+            "maxthis": 10,
+            "and": {
+                "seesky": true,
+                "cave": false,
+                "biome": "biomesoplenty:mystic_grove"
+            }
+        }
+    },
+
+    {
+        "mob": "iceandfire:ghost",
+        "attempts": 20,
+        "persecond": 0.1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 3
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "minheight": 50,
+            "maxthis": 15,
+            "and": {
+                "cave": false,
+                "biome": "biomesoplenty:ominous_woods"
+            }
+        }
+    },
+
+    {
+        "mob": "deeperdarker:sculk_centipede",
+        "attempts": 20,
+        "persecond": 0.2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 2
+        },
+        "conditions": {
+            "maxheight": 0,
+            "minheight": -60,
+            "maxthis": 25,
+            "dimension": "minecraft:overworld",
+            "and": {
+                "biome": "minecraft:deep_dark"
+            }
+        }
+    },
+
+
+    
+
+
+    
+    {
+        "mob": "minecraft:blaze",
+        "attempts": 30,
+        "persecond": 0.03,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "and": {
+                "biome": "minecraft:soul_sand_valley"
+            }
+        }
+    },
+
+    {
+        "mob": "mythsandlegends:imp",
+        "attempts": 20,
+        "persecond": 0.07,
+        "amount": {
+            "minimum": 2,
+            "maximum": 4
+        },
+        "conditions": {
+            "inair": true,
+            "dimension": "minecraft:the_nether",
+            "and": {
+                "biome": "biomesoplenty:visceral_heap"
+            }
+        }
+    },
+
+    {
+        "mob": "incision:purger",
+        "attempts": 20,
+        "persecond": 0.08,
+        "amount": {
+            "minimum": 2,
+            "maximum": 3,
+            "groupdistance": 10
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "and": {
+                "biome": "biomesoplenty:visceral_heap"
+            }
+        }
+    },
+
+    {
+        "mob": "incision:purger",
+        "attempts": 20,
+        "persecond": 0.02,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "norestrictions": true,
+            "dimension": "minecraft:the_nether",
+            "and": {
+                "biome": "incision:erodedyard"
+            }
+        }
+    },
+
+    {
+        "mob": "mythsandlegends:lampad",
+        "attempts": 20,
+        "persecond": 0.01,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "and": {
+                "biome": "minecraft:crimson_forest"
+            }
+        }
+    },
+
+    {
+        "mob": "mythsandlegends:scorched_sentinel",
+        "attempts": 20,
+        "persecond": 0.05,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "and": {
+                "biome": "minecraft:nether_wastes"
+            }
+        }
+    },
+
+    {
+        "mob": "block_factorys_bosses:soul_skeleton",
+        "attempts": 20,
+        "persecond": 0.05,
+        "amount": {
+            "minimum": 1,
+            "maximum": 3,
+            "groupdistance": 5
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "and": {
+                "biome": "minecraft:soul_sand_valley"
+            }
+        }
+    },
+
+    {
+        "mob": "mutantmonsters:mutant_enderman",
+        "attempts": 20,
+        "persecond": 0.02,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "and": {
+                "biome": "biomesoplenty:withered_abyss"
+            }
+        }
+    },
+
+    {
+        "mob": "saintsdragons:cindervane",
+        "attempts": 45,
+        "persecond": 0.001,
+        "amount": {
+            "minimum": 2,
+            "maximum": 3,
+            "groupdistance": 8
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "norestrictions": true,
+            "and": {
+                "biome": "minecraft:nether_wastes"
+            }
+        }
+    },
+
+    {
+        "mob": "saintsdragons:raevyx",
+        "attempts": 50,
+        "persecond": 0.01,
+        "amount": {
+            "minimum": 2,
+            "maximum": 3
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "norestrictions": true,
+            "maxthis": 10,
+            "and": {
+                "structure": "giant_nether_tree:giant_nether_tree"
+            }
+        }
+    },
+
+    {
+        "mob": "saintsdragons:nulljaw",
+        "attempts": 45,
+        "persecond": 0.0045,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "norestrictions": true,
+            "and": {
+                "biome": "biomesoplenty:withered_abyss"
+            }
+        }
+    },
+
+
+
+
+
+    {
+        "mob": "mutantmonsters:mutant_enderman",
+        "attempts": 20,
+        "persecond": 0.05,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:the_end"
+        }
+    },
+
+
+
+
+
+    {
+        "mob": "deeperdarker:shriek_worm",
+        "attempts": 20,
+        "persecond": 0.03,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "deeperdarker:otherside",
+            "sturdy": true,
+            "maxthis": 10,
+            "and": {
+                "biome": "deeperdarker:deeplands"
+            }
+        }
+    }
+]

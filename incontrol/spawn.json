@@ -1,0 +1,572 @@
+[
+    {
+        "mob": "minecraft:iron_golem",
+        "healthadd": 20,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "block_factorys_bosses:yeti",
+        "when": "onjoin",
+        "result": "deny"
+    },
+
+    {
+        "mob": "iceandfire:hippogryph",
+        "when": "onjoin",
+        "result": "deny"
+    },
+
+    {
+        "mob": "mythsandlegends:gargoyle",
+        "when": "onjoin",
+        "result": "deny"
+    },
+
+    {
+        "mob": "iceandfire:troll",
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:pillager",
+        "healthadd": 10,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:vindicator",
+        "healthadd": 15,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:evoker",
+        "healthadd": 36,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "takesapillage:legioner",
+        "healthadd": 10,
+        "armoradd": 5,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "takesapillage:skirmisher",
+        "healthadd": 5,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "takesapillage:archer",
+        "healthadd": 10,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:ravager",
+        "healthadd": 50,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "guardvillagers:guard",
+        "healthadd": 10,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "irons_spellbooks:citadel_keeper",
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "minecraft:player.entity_interaction_range",
+                    "base": 4.5
+                }
+            ]
+        },
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:skeleton",
+        "structure": "minecraft:stronghold",
+        "helditem": ["3=minecraft:bow","1=minecraft:wooden_sword"],
+        "healthadd": 10,
+        "customname": "Keeper",
+        "when": "onjoin",
+        "result": "default"
+    },
+
+    {
+        "mob": "minecraft:skeleton",
+        "helditem": ["3=minecraft:bow","1=minecraft:wooden_sword"],
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "deeperdarker:sculk_centipede",
+        "dimension": "minecraft:overworld",
+        "biome": "minecraft:deep_dark",
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:zombie",
+        "dimension": "minecraft:overworld",
+        "structure": "minecraft:stronghold",
+        "healthadd": 10,
+        "customname": "Keeper",
+        "when": "onjoin",
+        "result": "default"
+    },
+
+    {
+        "mob": "minecraft:phantom",
+        "dimension":"minecraft:overworld",
+        "healthadd": 10,
+        "damageadd": 5,
+        "angry": true,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:warden",
+        "dimension": "minecraft:overworld",
+        "healthadd": 20,
+        "damageadd": -15,
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "irons_spellbooks:magic_resist",
+                    "base": 1.0
+                }
+            ]
+        },
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+
+
+
+
+
+    {
+        "mob": "minecraft:piglin",
+        "healthadd": 10,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:zombified_piglin",
+        "healthadd": 5,
+        "helditem": [
+            "3=minecraft:golden_sword"
+        ],
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:piglin_brute",
+        "healthadd": 10,
+        "damageadd": 2,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:blaze",
+        "dimension": "minecraft:the_nether",
+        "biome": "minecraft:soul_sand_valley",
+        "healthadd": 45,
+        "damageadd": 15,
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "irons_spellbooks:fire_magic_resist",
+                    "base": 2.0
+                },
+                {
+                    "id": "irons_spellbooks:ice_magic_resist",
+                    "base": 2.0
+                }
+            ]
+        },
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:blaze",
+        "healthadd": 30,
+        "damageadd": 10,
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "irons_spellbooks:fire_magic_resist",
+                    "base": 2.0
+                }
+            ]
+        },
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    
+
+    {
+        "mob": "minecraft:wither_skeleton",
+        "healthadd": 10,
+        "helditem": [
+            "1=minecraft:bow",
+            "4=minecraft:stone_sword"
+        ],
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "apothic_attributes:armor_pierce",
+                    "base": 6.0
+                }
+            ]
+        },
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "block_factorys_bosses:soul_skeleton",
+        "healthadd": 5,
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "apothic_attributes:armor_pierce",
+                    "base": 8.0
+                }
+            ]
+        },
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "block_factorys_bosses:soul_knight_wither_skeleton",
+        "healthadd": 5,
+        "armoradd": 5.0,
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "apothic_attributes:armor_pierce",
+                    "base": 12.0
+                }
+            ]
+        },
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:wither",
+        "healthadd": 100,
+        "dimension": "minecraft:the_nether",
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "mythsandlegends:condemned",
+        "when": "onjoin",
+        "healthadd": 15,
+        "result": "allow"
+    },
+
+    {
+        "mob": "mythsandlegends:abaddon",
+        "when": "onjoin",
+        "armoradd": 8,
+        "result": "allow"
+    },
+
+    {
+        "mob": "mythsandlegends:imp",
+        "when": "onjoin",
+        "dimension": "the_nether",
+        "biome": "biomesoplenty:visceral_heap",
+        "result": "allow"
+    },   
+    
+    {
+        "mob": "mythsandlegends:scorched_sentinel",
+        "when": "onjoin",
+        "dimension": "the_nether",
+        "biome": "minecraft:nether_wastes",
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "minecraft:player.entity_interaction_range",
+                    "base": 3.5
+                },
+                {
+                    "id": "minecraft:generic.knockback_resistance",
+                    "base": 0.75
+                }
+            ]
+        },
+        "result": "allow"
+    },
+
+    {
+        "mob": "mythsandlegends:lampad",
+        "dimension": "the_nether",
+        "when": "onjoin",
+        "healthadd": 15,
+        "nbt": {
+            "nbt": {
+                "attributes": [
+                    {
+                        "id": "minecraft:player.entity_interaction_range",
+                        "base": 3
+                    },
+                    {
+                        "id": "minecraft:generic.knockback_resistance",
+                        "base": 0.25
+                    }
+                ]
+            }
+        },
+        "result": "allow"
+    },
+
+    {
+        "mob": "bosses_of_mass_destruction:gauntlet",
+        "when": "onjoin",
+        "healthadd": 100,
+        "result": "allow"
+    },
+
+    {
+        "mob": "mutantmonsters:mutant_enderman",
+        "dimension": "minecraft:the_nether",
+        "when": "onjoin",
+        "result": "allow",
+        "incontrol": true
+    },
+
+    {
+        "mob": "saintsdragons:cindervane",
+        "when": "onjoin",
+        "dimension": "minecraft:the_nether",
+        "result": "allow"
+    },
+
+    {
+        "mob": "saintsdragons:nulljaw",
+        "when": "onjoin",
+        "dimension": "minecraft:the_nether",
+        "result": "allow"
+    },
+
+    {
+        "mob": "saintsdragons:raevyx",
+        "when": "onjoin",
+        "dimension": "minecraft:the_nether",
+        "result": "allow"
+    },
+
+
+
+
+
+    {
+        "mob": "minecraft:enderman",
+        "healthadd": 20,
+        "damageadd": 5,
+        "dimension": "minecraft:the_end",
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "mutantmonsters:mutant_enderman",
+        "healthadd": 100,
+        "dimension": "minecraft:the_end",
+        "when": "onjoin",
+        "result": "allow",
+        "incontrol": true
+    },
+
+    {
+        "mob": "minecraft:shulker",
+        "healthadd": 60,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:phantom",
+        "dimension": "minecraft:the_end",
+        "healthadd": 40,
+        "damageadd": 10,
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "apothic_attributes:armor_shred",
+                    "base": 1.0
+                },
+                {
+                    "id": "minecraft:generic.scale",
+                    "base": 1.5
+                }
+            ]
+        },
+        "angry":true,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:endermite",
+        "dimension": "minecraft:the_end",
+        "healthadd": 10,
+        "damageadd": 5,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "enderscape:rubblemite",
+        "dimension": "minecraft:the_end",
+        "healthadd": 5,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "firesenderexpansion:porphyromancer",
+        "dimension": "minecraft:the_end",
+        "healthadd": 70,
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+    {
+        "mob": "minecraft:ender_dragon",
+        "customevent": "dragon_spawn",
+        "healthadd": 300,
+        "armoradd": 20,
+        "damageadd": 10,
+        "dimension": "minecraft:the_end",
+        "when": "onjoin",
+        "result": "allow"
+    },
+
+
+
+
+
+    {
+        "mob": "deeperdarker:shriek_worm",
+        "when": "onjoin",
+        "biome": "deeperdarker:deeplands",
+        "result": "allow"
+    },
+
+
+
+
+    {
+        "mob": "voidscape:null_servant",
+        "when": "onjoin",
+        "speedadd": 0.085,
+        "armoradd": 16,
+        "healthadd": 50,
+        "nbt": {
+            "nbt": {
+                "attributes": [
+                    {
+                        "id": "minecraft:player.entity_interaction_range",
+                        "base": 3.5
+                    }
+                ]
+            }
+        },
+        "result": "allow"
+    },
+
+    {
+        "mob": "voidscape:voids_wrath",
+        "when": "onjoin",
+        "speedadd": 0.15,
+        "armoradd": 5,
+        "healthadd": 120,
+        "helditem": ["discerning_the_eldritch:ritual_dagger"],
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "minecraft:player.entity_interaction_range",
+                    "base": 3.5
+                },
+                {
+                    "id": "minecraft:generic.knockback_resistance",
+                    "base": 0.25
+                }
+            ]
+        },
+        "result": "allow"
+    },
+
+    {
+        "mob": "saintsdragons:nulljaw",
+        "when": "onjoin",
+        "nbt": {
+            "attributes": [
+                {
+                    "id": "voidscape:voidic_infusion_res",
+                    "base": 10.0
+                },
+                {
+                    "id": "voidscape:voidic_res",
+                    "base": 10.0
+                },
+                {
+                    "id": "voidscape:voidic_paranoia_res",
+                    "base": 10.0
+                }
+            ]
+        },
+        "result": "default"
+    },
+
+
+
+
+    {
+        "mob": "supplementaries:plunderer",
+        "when": "onjoin",
+        "result": "deny"
+    },
+
+    {
+        "mob": "mythsandlegends:black_charro",
+        "when": "onjoin",
+        "result": "deny"
+    }
+]

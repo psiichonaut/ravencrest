@@ -1,0 +1,11 @@
+[
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "dragon_spawn"
+        },
+        "command": [
+            "scale set pehkui:base 2 @e[type=minecraft:ender_dragon,limit=1]"
+        ]
+    }
+]
